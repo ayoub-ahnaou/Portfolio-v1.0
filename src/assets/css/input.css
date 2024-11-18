@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: "press start 2P", sans-serif;
+    font-size: 12px;
+}
