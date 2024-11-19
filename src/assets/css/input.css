@@ -6,3 +6,43 @@
     font-family: "press start 2P", sans-serif;
     font-size: 12px;
 }
+.check { border: 1px solid red; }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html { font-size: 16px; }
+.container { width: 70%; }
+@media (max-width: 1280px) {
+    html { font-size: 12px; }
+    .container { width: 90%; }
+}
+@media (max-width: 767px) {
+    .container { width: 98%; padding: 2rem; }
+}
+@media (max-width: 430px) {
+    html { font-size: 8px; }
+    .container { width: 99%; }
+}
+
+.primary-btn {
+    @apply border-2 max-md:border border-mainColor text-mainColor font-mono font-bold text-xl px-6 py-2;
+    &:hover {
+        border-bottom: solid 4px; 
+        border-right: solid 4px;
+        transform: translateX(-2px) translateY(-2px);
+    }
+}
+.menu {
+    @apply flex gap-8 items-center transition-all delay-75 ease-in-out;
+}
+@media (max-width: 768px) {
+    .menu {
+        @apply flex-col absolute bg-white top-[-500%] left-0 right-0 py-8 shadow-lg;
+    }
+}
+.img-effect {
+    @apply h-full rounded-lg filter grayscale hover:grayscale-0 transition-all ease-in-out delay-100 object-cover;
+}
