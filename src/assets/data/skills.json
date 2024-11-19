@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "name": "Bootstrap",
+        "img_url": "assets/images/skills/bootstrap.svg"
+    },
+    {
+        "id": 2,
+        "name": "CSS-3",
+        "img_url": "assets/images/skills/css-3.svg"
+    },
+    {
+        "id": 3,
+        "name": "Git",
+        "img_url": "assets/images/skills/git.svg"
+    },
+    {
+        "id": 4,
+        "name": "GitHub",
+        "img_url": "assets/images/skills/github.svg"
+    },
+    {
+        "id": 5,
+        "name": "HTML 5",
+        "img_url": "assets/images/skills/html.svg"
+    },
+    {
+        "id": 6,
+        "name": "Java",
+        "img_url": "assets/images/skills/java.svg"
+    },
+    {
+        "id": 7,
+        "name": "JavaScript",
+        "img_url": "assets/images/skills/javascript.svg"
+    },
+    {
+        "id": 8,
+        "name": "MongoDB",
+        "img_url": "assets/images/skills/mongodb.svg"
+    },
+    {
+        "id": 9,
+        "name": "MySQL",
+        "img_url": "assets/images/skills/mysql.svg"
+    },
+    {
+        "id": 10,
+        "name": "Node.JS",
+        "img_url": "assets/images/skills/node-js.svg"
+    },
+    {
+        "id": 11,
+        "name": "Php",
+        "img_url": "assets/images/skills/php.svg"
+    },
+    {
+        "id": 12,
+        "name": "PostgrSQL",
+        "img_url": "assets/images/skills/postgresql.svg"
+    },
+    {
+        "id": 13,
+        "name": "Postman",
+        "img_url": "assets/images/skills/postman.svg"
+    },
+    {
+        "id": 14,
+        "name": "React",
+        "img_url": "assets/images/skills/react.svg"
+    },
+    {
+        "id": 15,
+        "name": "Sass",
+        "img_url": "assets/images/skills/sass.svg"
+    },
+    {
+        "id": 16,
+        "name": "TailwindCSS",
+        "img_url": "assets/images/skills/tailwindcss.svg"
+    },
+    {
+        "id": 17,
+        "name": "Ubuntu",
+        "img_url": "assets/images/skills/ubuntu.svg"
+    },
+    {
+        "id": 18,
+        "name": "Express-js",
+        "img_url": "assets/images/skills/express-js.svg"
+    },
+    {
+        "id": 19,
+        "name": "Visual Studio Code",
+        "img_url": "assets/images/skills/vs-code.svg"
+    }
+]
