@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "GitHub",
+        "account": "/ayoub-ahnaou",
+        "img_url": "assets/images/social/github.svg",
+        "link": "https://github.com/ayoub-ahnaou"
+    },
+    {
+        "id": 2,
+        "name": "Linkedin",
+        "account": "/ayoub-ahnaou",
+        "img_url": "assets/images/social/linkedin.svg",
+        "link": "https://www.linkedin.com/in/ayoub-ahnaou-1543102ba/"
+    },
+    {
+        "id": 3,
+        "name": "Instagram",
+        "account": "@ahnaou_a",
+        "img_url": "assets/images/social/instagram.svg",
+        "link": "https://instagram.com/ahnaou_a"
+    }
+]
