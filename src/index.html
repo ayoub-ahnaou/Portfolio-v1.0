@@ -6,35 +6,64 @@
     <title>Ayoub Ahnaou</title>
     <link rel="stylesheet" href="output.css" />
 
+    <script type="module" src="assets/js/script.js" defer></script>
+
     <!-- Get the font-family 'Press start 2P' -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-    rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="flex justify-between items-center px-4 h-10 bg-white text-black shadow-md">
-      <span class="text-[1.4rem]">Aa.</span>
-      <ul class="flex gap-8 items-center">
-        <li>About me</li>
-        <li>Education</li>
-        <li>Projects</li>
-        <li>Contact</li>
-        <li>Resume</li>
+    <nav
+      class="flex justify-between items-center px-4 py-4 sticky top-0 z-10 bg-white text-black text-base max-md:px-10 shadow-md"
+    >
+      <a href="#home-section">
+        <span class="text-[1.4rem]">Aa.</span>
+      </a>
+      <ul class="menu">
+        <a href="#about-section" >
+          <li
+          class="cursor-pointer hover:text-mainColor transition-colors delay-100"
+        >
+          About me
+        </li>
+        </a>
+        <a href="#projects-section">
+          <li
+          class="cursor-pointer hover:text-mainColor transition-colors delay-100"
+        >
+          Projects
+        </li>
+        </a>
+        <a href="#education-section">
+          <li
+          class="cursor-pointer hover:text-mainColor transition-colors delay-100"
+        >
+          Education
+        </li>
+        </a>
+        <a href="#contact-section">
+          <li
+          class="cursor-pointer hover:text-mainColor transition-colors delay-100"
+        >
+          Contact
+        </li>
+        </a>
 
+        <!-- TODO: dark and light mode toggling -->
         <!-- light mode, sun -->
-        <div class="bg-black rounded-full w-[45px] p-[2px] shadow-[0_0_10px_rgba(0,0,0,0.6)]">
+        <!-- <div
+          class="bg-black rounded-full w-[45px] p-[2px] shadow-[0_0_10px_rgba(0,0,0,0.6)]"
+        >
           <img
             src="assets/images/icons/sun-svgrepo-com.svg"
             class="w-[20px] rounded-full h-[20px] p-[2px]"
             alt="sun svg icon"
           />
-        </div>
-        
+        </div> -->
+
         <!-- dark mode, moon -->
         <!-- <div class="bg-white rounded-full w-[45px] p-[2px] shadow-[0px_0px_30px_rgba(255,255,255,0.9)]">
           <img
@@ -44,6 +73,13 @@
           />
         </div> -->
       </ul>
+
+      <div class="size-10 z-10 md:hidden" id="menu-icon">
+        <img src="assets/images/icons/menu.svg" alt="" />
+      </div>
+      <div class="size-14 z-10 hidden" id="close-icon">
+        <img src="assets/images/icons/close.svg" alt="" />
+      </div>
     </nav>
   </body>
 </html>
