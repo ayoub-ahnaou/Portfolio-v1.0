@@ -22,7 +22,7 @@
     {
         "id": 5,
         "name": "HTML 5",
-        "img_url": "assets/images/skills/html.svg"
+        "img_url": "assets/images/skills/html-5.svg"
     },
     {
         "id": 6,
@@ -91,7 +91,12 @@
     },
     {
         "id": 19,
-        "name": "Visual Studio Code",
+        "name": "Visual-Studio-Code",
         "img_url": "assets/images/skills/vs-code.svg"
+    },
+    {
+        "id": 20,
+        "name": "Vite",
+        "img_url": "assets/images/skills/vite.svg"
     }
 ]
