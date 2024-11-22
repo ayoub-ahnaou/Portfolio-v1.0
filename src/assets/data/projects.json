@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "imgurl": "assets/images/projects/visit-morocco.png",
+    "demo": "https://ilyassan.github.io/VisitMorocco/dev/",
+    "repo": "https://github.com/ilyassan/VisitMorocco/",
+    "title": "VisitMorocco",
+    "description": "An engaging web platform exploring Morocco’s vibrant destinations and rich traditions. Through immersive content and visuals, users can discover cultural highlights, iconic landmarks, and local customs that make Morocco unique.",
+    "technologies": ["HTML", "CSS Native"]
+  },
+  {
+    "id": 2,
+    "imgurl": "assets/images/projects/todo-list.png",
+    "demo": "https://ayoub-ahnaou.github.io/To-do_List/src",
+    "repo": "https://github.com/ayoub-ahnaou/To-do_List",
+    "title": "To-Do List",
+    "description": "A simple, responsive To-Do List web app built with native JavaScript and TailwindCSS. Users can add, edit, and delete tasks, helping them stay organized and productive with an intuitive interface.",
+    "technologies": ["HTML", "Tailwind CSS", "JavaScript"]
+  }
+]
