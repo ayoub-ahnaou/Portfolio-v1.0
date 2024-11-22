@@ -52,3 +52,48 @@ socials.map((social) => {
             </div>
     `;
 });
+
+
+import projects from "../data/projects.json" with { type: "json" };
+const projectsContainer = document.getElementById("projects-container");
+projects.map((project) => {
+    projectsContainer.innerHTML += `
+        <div class="w-1/2 max-md:w-full bg-lightBg shadow-md rounded-md flex flex-col gap-2 p-4">
+            <a href="${project.demo}" target="_blank" class="center">
+                <img
+                src="${project.imgurl}"
+                alt=${project.title}
+                class="img-effect border-2 border-black rounded-md h-[270px] max-md:h-auto w-full"
+                />
+            </a>
+            <div class="flex justify-between items-center">
+              <span>${project.title}</span>
+              <div class="flex gap-2">
+                    <a href="${project.repo}" target="_blank">
+                        <img
+                        src="assets/images/icons/github.svg"
+                        class="size-6 cursor-pointer"
+                        alt=""
+                        />
+                    </a>
+                    <a href="${project.demo}" target="_blank">
+                        <img
+                        src="assets/images/icons/link-external.svg"
+                        class="size-6 cursor-pointer"
+                        alt=""
+                        />
+                    </a>
+                </div>
+            </div>
+            <span class="font-[Comfortaa] flex-1">
+              ${project.description}
+            </span>
+            <div id="${project.id}" class="flex gap-1 mt-8"></div>
+        </div>
+    `;
+    project.technologies.forEach((tech) => {
+        document.getElementById(project.id).innerHTML += `
+            <span class="bg-secondTextColor text-white px-4 py-1 font-mono rounded-md">${tech}</span>
+        `;
+    });
+});
